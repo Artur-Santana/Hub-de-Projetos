@@ -12564,7 +12564,7 @@ blockquote {
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  padding-top: 8rem;
+
   padding-bottom: 7.5em;
   display: flex
 }
@@ -15501,7 +15501,6 @@ blockquote {
   flex-flow: column;
   justify-content: flex-start;
   align-items: flex-start;
-  padding-left: 3.025em;
   padding-right: 0;
   display: flex
 }
@@ -15558,7 +15557,7 @@ blockquote {
 
 .chat-bento_content {
   grid-column-gap: .5em;
-  grid-row-gap: .5em;
+  grid-row-gap: 1.5em;
   flex-flow: column;
   align-items: flex-start;
   display: flex
@@ -25086,7 +25085,7 @@ blockquote {
   }
 
   .img.is--hero.align-mobile {
-    object-position: 75% 50%
+    object-position: 45% 50%
   }
 
   .img.is--hero.align-mobile.is-lp {
@@ -25153,7 +25152,7 @@ blockquote {
   }
 
   .section-resource {
-    padding-top: 6em;
+
     padding-bottom: 4em
   }
 
@@ -25612,7 +25611,7 @@ blockquote {
     grid-column-gap: 5.3125rem;
     grid-row-gap: 5.3125rem;
     margin-top: 5.6rem;
-    padding: 5.8rem 1rem 2.6rem
+    padding: 5.8rem 5rem 2.6rem
   }
 
   .testimonial-content-card.is--dark {
@@ -25648,10 +25647,13 @@ blockquote {
     margin-top: 3.7rem;
     margin-bottom: 3.5rem
   }
+  .testimonial-quote {
+    margin-top: 2em;
+  }
 
   .testimonial-image-wrap {
-    width: 10rem;
-    height: 10rem;
+    width: 18rem;
+    height: 12rem;
     margin-left: auto;
     margin-right: auto;
     position: absolute;
