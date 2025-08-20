@@ -12565,7 +12565,7 @@ blockquote {
   justify-content: center;
   align-items: center;
       margin-top: 2em;
-  padding-bottom: 7.5em;
+  padding-bottom: 0em;
   display: flex
 }
 
@@ -16009,7 +16009,7 @@ blockquote {
   grid-column-gap: 1.5em;
   grid-row-gap: 1.5em;
   flex-flow: column;
-  align-items: flex-start;
+  align-items: center;
   display: flex
 }
 
